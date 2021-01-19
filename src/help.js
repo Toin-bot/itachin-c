@@ -5,7 +5,7 @@ const help = (prefix, pushname, botname, oname) => {
   
   ◪ *INFORMAÇÕES*
     ❏ Prefix: 「  ${prefix}  」
-    ❏ Criador: 𝑰 𝑻 𝑨 𝑪 𝑯 𝑰
+    ❏ Criador:itachi
     ❏ Numero do meu criador: https://wa.me/5573981044096
     ❏ Grupo do Bot: https://chat.whatsapp.com/CLRNnixaxwM6l73bj3fPke
     ❏ Grupo do dono do Bot: https://chat.whatsapp.com/I8Pdhhuuxg0BiMuwIhbKJK
