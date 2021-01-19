@@ -1,11 +1,11 @@
 const help = (prefix, pushname, botname, oname) => {
 	return `
-  「 *Toin Bot* 」
+  「 *Bot do 𝑰 𝑻 𝑨 𝑪 𝑯 𝑰* 」
   Oiin
   
   ◪ *INFORMAÇÕES*
     ❏ Prefix: 「  ${prefix}  」
-    ❏ Criador:itachi
+    ❏ Criador: 𝑰 𝑻 𝑨 𝑪 𝑯 𝑰 ⸙
     ❏ Numero do meu criador: https://wa.me/5573981044096
     ❏ Grupo do Bot: https://chat.whatsapp.com/CLRNnixaxwM6l73bj3fPke
     ❏ Grupo do dono do Bot: https://chat.whatsapp.com/I8Pdhhuuxg0BiMuwIhbKJK
