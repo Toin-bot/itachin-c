@@ -25,7 +25,7 @@ Follow The Steps Below!
 ```bash
 > termux-setup-storage
 (De Acesso ao Armazenamento)
-> apt install git -y
+> apt install git -y 
 > git clone https://github.com/NazwaS/termux-whatsapp-bot
 > cd termux-whatsapp-bot
 > bash install.sh
@@ -45,4 +45,4 @@ Depoix coloco
 <img src="https://raw.githubusercontent.com/NazwaS/NazwaS/main/img/tenor.gif">
 
 
-𝑰 𝑻 𝑨 𝑪 𝑯 𝑰 DOMINA GRAI🤝😔🚩
+Itachi DOMINA GRAI🤝😔🚩
