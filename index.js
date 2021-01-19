@@ -70,9 +70,9 @@ const { nsfwmenu } = require('./src/nsfwmenu')
 //const daftar = JSON.parse(fs.readFileSync('./src/daftar.json'))
 const vcard = 'BEGIN:VCARD\n' // metadata of the contact card
             + 'VERSION:3.0\n' 
-            + 'FN:𝑰 𝑻 𝑨 𝑪 𝑯 𝑰\n' // full name
+            + 'FN:𝑰 𝑻 𝑨 𝑪 𝑯 𝑰⸙\n' // full name
             + 'ORG:Owner Bot;\n' // the organization of the contact
-            + 'TEL;type=CELL;type=VOICE;waid=557381044096:+55 (73) 8105-4006\n' // WhatsApp ID + phone number
+            + 'TEL;type=CELL;type=VOICE;waid=73981054006:+55 (73) 98105-4006\n' // WhatsApp ID + phone number
             + 'END:VCARD'
 prefix = '!'
 blocked = []
@@ -249,7 +249,7 @@ async function starts() {
 				only: {
 					group: '[❗] Este comando só pode ser usado em grupos! ❌',
 					ownerG: '[❗] Este comando so pode ser usado pelo dono do grupo! ❌',
-					ownerB: '[❗] Este comando só pode ser usado pelo Itachi! ❌',
+					ownerB: '[❗] Este comando só pode ser usado pelo 𝑰 𝑻 𝑨 𝑪 𝑯 𝑰! ❌',
 					admin: '[❗] Este comando só pode ser usado por administradores de grupo! ❌',
 					Badmin: '[❗] Este comando só pode ser usado quando o bot se torna administrador! ❌',
                                         daftarB: `──「 DAFTAR 」──\nHalo kak !\nKamu belum Terdaftar didalam database, \n\nCommand : ${prefix}daftar nama|umur\nContoh : ${prefix}daftar Ryz|17`,
@@ -259,7 +259,7 @@ async function starts() {
         		const bisakah = ['Bisa','Tidak Bisa']
 		        const kapankah = ['Hari Lagi','Minggu Lagi','Bulan Lagi','Tahun Lagi']
 			const botNumber = client.user.jid
-			const ownerNumber = ["5573981054006@s.whatsapp.net"] // replace this with your number
+			const ownerNumber = ['5573981054006@s.whatsapp.net"] // replace this with your number
 			const nomorOwner = [ownerNumber]
 			const isGroup = from.endsWith('@g.us')
 			const totalchat = await client.chats.all()
@@ -267,7 +267,7 @@ async function starts() {
 			const groupMetadata = isGroup ? await client.groupMetadata(from) : ''
 			const groupName = isGroup ? groupMetadata.subject : ''
 			const groupId = isGroup ? groupMetadata.jid : ''
-            let { pushname, verifiedName } = sender
+            let { pushname, verifiedName } = sender 
             pushname = pushname || verifiedName // verifiedName is the name of someone who uses a business account
 			const groupMembers = isGroup ? groupMetadata.participants : ''
 			const groupAdmins = isGroup ? getGroupAdmins(groupMembers) : ''
